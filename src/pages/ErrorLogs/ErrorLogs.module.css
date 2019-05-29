@@ -1,0 +1,28 @@
+.error-logs-block {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 5rem);
+    margin-top: 5rem;
+}
+
+.error-logs-block__no-logs-text {
+    color: #d8000c;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}
+
+.error-logs-block__single-block {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 1rem;
+    width: 20rem;
+    height: 10rem;
+    background-color: #d3d3d3;
+}
+
+.error-logs-block__single-block__text {
+    padding: 0.25rem;
+}

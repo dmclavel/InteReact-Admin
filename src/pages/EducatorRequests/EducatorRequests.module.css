@@ -1,0 +1,6 @@
+.educator-block {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 5rem);
+    margin-top: 5rem;
+}

@@ -1,0 +1,36 @@
+.users-block {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 5rem;
+}
+
+.users-block__no-logs-text {
+    color: #d8000c;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}
+
+.users-block__single-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    width: 40rem;
+    height: 12rem;
+    background-color: #d3d3d3;
+}
+
+.users-block__inliner-block {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+.users-block__single-user__text {
+    font-size: 1.1rem;
+}

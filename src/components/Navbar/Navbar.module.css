@@ -1,0 +1,42 @@
+.nav-block {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: pink;
+    font-family: sans-serif;
+}
+
+.nav-block__link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.nav-block__link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-block__link__icon {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-block__link__text {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    color: #fff;
+}
+
+.nav-block__link--active {
+    color: black;
+}
